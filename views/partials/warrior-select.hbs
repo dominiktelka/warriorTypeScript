@@ -1,0 +1,6 @@
+<select name="{{select-name}}" id="">
+    {{#each warriors}}
+        <option value="{{this.id}}">{{this.name}}</option>
+    {{!this.id is shown in browser html file}}
+    {{/each}}
+</select>
